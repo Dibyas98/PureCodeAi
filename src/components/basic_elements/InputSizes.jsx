@@ -1,6 +1,6 @@
+import React from "react";
 import TextFormInput from "./TextFormInput";
 import { useForm } from "react-hook-form";
-
 
 
 const InputSizes = () => {

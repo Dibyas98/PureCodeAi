@@ -1,3 +1,4 @@
+import React from "react";
 const CustomSwitch = () => {
     return (
         <div className="border border-default-200 rounded-lg">
