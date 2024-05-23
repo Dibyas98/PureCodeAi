@@ -35,3 +35,10 @@
   z-index: 10;
 }
 
+.form-switch {
+  @apply w-9 h-5 flex items-center appearance-none bg-transparent border-2 border-transparent rounded-full ring-1 ring-default-300 focus:ring-1 focus:ring-default-300 checked:focus:ring-transparent checked:ring-transparent focus:ring-offset-0 cursor-pointer transition-colors ease-in-out duration-200 checked:bg-none;
+
+  &::before{
+      @apply content-[''] inline-block w-4 h-4 bg-default-200 rounded-full translate-x-0 transform transition ease-in-out duration-200 checked:bg-white checked:translate-x-full rtl:checked:-translate-x-full;
+  }                
+}
