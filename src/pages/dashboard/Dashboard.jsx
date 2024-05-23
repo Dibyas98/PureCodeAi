@@ -16,6 +16,8 @@ const Dashboard = () => {
       <LayoutProvider>
 
         <TopbarAdmin />
+        <MenuAdmin />
+        
         
       </LayoutProvider>
     </>
