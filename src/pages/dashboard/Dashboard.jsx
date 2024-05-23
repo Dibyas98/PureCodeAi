@@ -17,8 +17,7 @@ const Dashboard = () => {
 
         <TopbarAdmin />
         <MenuAdmin />
-        {/* <Widget /> */}
-   <BasicElements/>
+        <BasicElements />
         <Footer />
         <BackToTop />
       </LayoutProvider>
