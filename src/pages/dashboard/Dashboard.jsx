@@ -18,7 +18,8 @@ const Dashboard = () => {
         <TopbarAdmin />
         <MenuAdmin />
         <BasicElements />
-        
+        <Footer />
+        <BackToTop />
         
       </LayoutProvider>
     </>
