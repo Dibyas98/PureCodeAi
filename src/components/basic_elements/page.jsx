@@ -20,16 +20,7 @@ const colors = [
     "danger",
     "dark",
   ];
-  const valCol={
-    primary: "#F58220",
-      secondary: "#6c757d",
-      success: "#43d39e",
-      info: "#25c2e3",
-      warning: "#ffbe0b",
-      danger: "#ff5c75",
-      light: "#f8f9fa",
-      dark: "#343a40",
-  }
+  
 const BasicInputElements = () => {
     const { control } = useForm();
     return (
